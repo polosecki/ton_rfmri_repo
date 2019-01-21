@@ -1,0 +1,16 @@
+*.mat
+*.zip
+*.tar.gz
+*.m~
+*.nii.gz
+*.gz
+
+FBIRN_analysis
+Data
+MLTools/libsvm-3.1
+MLTools/weka-3-6-5
+MLTools/SparseMRF
+TON_resting_classification/Figures
+TON_resting_classification/explore
+
+*.txt~
