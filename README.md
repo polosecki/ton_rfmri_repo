@@ -1,4 +1,4 @@
-# ton_rfmri_repo
+# Repository of coded used for stratification of pre-HD by rates of cognitive decline using single visit resting state fMRI
 
 Scripts used for analysis of resting state fMRI data in premanifest Huntington's Disease in:
 *"Resting-state connectivity stratifies premanifest Huntington's disease by cognitive decline rate"*
