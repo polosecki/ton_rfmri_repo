@@ -28,17 +28,17 @@ This repository contains the following folders (each folder has its own README f
 
 * **controls**: Scripts for controling for confounds reported in the paper.
 
-...**controls/combat_harmonization**: Corrects FCD features by site using combat
+... **controls/combat_harmonization**: Corrects FCD features by site using combat
 
-...**controls/combat_harmonization**: Corrects FCD features by site using combat.
+... **controls/combat_harmonization**: Corrects FCD features by site using combat.
 
-...**controls/VBM_controls**: corrects FCD features by gray matter concentration. Assumes VBM maps exist. (In our case, these were provided by Castro et a. 2018)
+... **controls/VBM_controls**: corrects FCD features by gray matter concentration. Assumes VBM maps exist. (In our case, these were provided by Castro et a. 2018)
 
-...**controls/n_visit_controls**: controls for effect of number of visits in assigment to extreme subgroups of decline
+... **controls/n_visit_controls**: controls for effect of number of visits in assigment to extreme subgroups of decline
 
-...**controls/site_effects**: Checks for differences in demographics/cognition across sites.
+... **controls/site_effects**: Checks for differences in demographics/cognition across sites.
 
-...**controls/exclusion_numbers**: Ipython notebook computing how many subjects where excluded for what reason
+... **controls/exclusion_numbers**: Ipython notebook computing how many subjects where excluded for what reason
 
 
 **Dependencies**
