@@ -7,7 +7,7 @@ Authors: Pablo Polosecki, Eduardo Castro, Irina Rish, Dorian Pustina, John H. Wa
 This is NOT a toolbox. The scripts are provided "as is" for the purposes of reproducibility and transparency. If interested in adapting these scripts, feel free to  contact Pablo Polosecki (pipolose@us.ibm.com) for assistance.
 
 
-Most scripts are written in *Python (2.7)*, except for the ones in **fcd_tools**, which are written in *MATLAB*
+Most scripts are written in Python (2.7), except for the ones in **fcd_tools**, which are written in MATLAB
 This repository contains the following folders (each folder has its own README file with a description of its contents):
 
 * **explore**: Scripts for manipulating files from the raw dataset, and obtaining longitudinal slopes of cognitive change.
@@ -32,9 +32,9 @@ This repository contains the following folders (each folder has its own README f
 
    **controls/combat_harmonization**: Corrects FCD features by site using combat.
 
-   **controls/VBM_controls**: corrects FCD features by gray matter concentration. Assumes VBM maps exist. (In our case, these were provided by Castro et a. 2018)
+   **controls/VBM_controls**: Corrects FCD features by gray matter concentration. Assumes VBM maps exist. (In our case, these were provided by Castro et al. 2018)
 
-   **controls/n_visit_controls**: controls for effect of number of visits in assigment to extreme subgroups of decline
+   **controls/n_visit_controls**: Controls for effect of number of visits in assigment to extreme subgroups of decline
 
    **controls/site_effects**: Checks for differences in demographics/cognition across sites.
 
