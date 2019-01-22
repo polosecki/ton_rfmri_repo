@@ -1,11 +1,11 @@
-### Directory contents:
+### Directory contents
 
-#### Scripts:
+#### Scripts
 **polo_TON_cross-site-CV.py**: Script for running cross-validated binary classifications.
 
 **make_feature_stability_plot.py**: Script and functions for saving stored classifier weights as nifti volumes.
 
-#### Tools:
+#### Tools
 **polyssifier_3.py**: Functions to be called for binary classifications on **polo_TON_cross-site-CV.py**.
 
 **TON_tools3.py**: Functions specific to this study: removal of AGE, SEX, CAG effects.

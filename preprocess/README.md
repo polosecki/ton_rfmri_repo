@@ -1,13 +1,13 @@
-### Directory contents:
+## Directory contents:
 
-#### Tools:
+### Scripts
 **dcm_conversion.py**: Script for converting raw dicom files into nifti format.
 
 **do_rsfmri.py**: Script for preprocessing resting-state fMRI time series.
 
 **registration_setup.py**: Script for registration of T1W anatomical to MNI space, fMRI to T1W and MNI space.
 
-#### Tools:
+### Tools
 **conversion_tools.py**: Functions for creation of Nipype pipelines that are used in dcm_conversion.py
 
 **resting_wf.py**: Functions for creation of Nipype pipelines that are used in do_rsfmri.py, modified from the example that came with Nipype

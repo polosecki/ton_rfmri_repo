@@ -1,10 +1,10 @@
-### Directory contents:
+## Directory contents:
 
-*This MATLAB code is the one previously used by Rish et. al. (2013) for computing voxel level funcional connectivity density maps (degree maps)*
+*This MATLAB code is the one previously used by Rish et. al. (2013) for computing voxel level funcional connectivity density maps (degree maps).*
 
 *Rish, I., Cecchi, G., Thyreau, B., Thirion, B., Plaze, M., Paillere-martinot, M.-L., et al. (2013). Schizophrenia as a Network Disease: Disruption of Emergent Brain Function in Patients with Auditory Hallucinations. PloS One, 8(1), e50625. http://doi.org/10.1371/journal.pone.0050625*
 
-#### Scripts (in the order in which they are typically called)
+### Scripts (in the order in which they are typically called)
 **export_subjects_list_for_MLtools.py**: Script for making a subject list to be used by the matlab code.
 
 **make_functional_mask.m**: Script for making a brain mask to be used.
