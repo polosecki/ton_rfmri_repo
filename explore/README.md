@@ -6,4 +6,4 @@
 
 **make_site_csv.py**: Script that saves a csv file with site IDs for every subject. Useful for defining cross-site validations, testing for site differences, etc.
 
-**make_covariate_csv.py**: Saves a csv file with baseline demographic information in TRACK-ON part of the dataset.
+**make_covariate_csv.py**: Saves a csv file with baseline demographic information.
