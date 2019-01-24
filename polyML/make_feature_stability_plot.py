@@ -26,7 +26,8 @@ USER-DEFINED VARIABLES
 '''
 map_type = 'weight'  #'selection_freq' #
 
-out_dir = '/data1/chdi_results/polo/polyML/results/TON_rsfmri_scirep/PC_0'
+out_dir = '/data1/chdi_results/polo/polyML/results/degree/bct/thres07/non_smooth/cross-site-CV/happy_sad/PC_0'
+#'/data1/chdi_results/polo/polyML/results/degree/bct/thres07/non_smooth/cross-site-CV/age-sex-corrected'
 
 classifier_used = 'SAGA_log_elastic'
 n_folds = 4 #4 sites

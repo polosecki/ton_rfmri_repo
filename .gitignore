@@ -4,7 +4,9 @@
 *.m~
 *.nii.gz
 *.gz
+*.pyc
 
+.ipynb_checkpoints
 FBIRN_analysis
 Data
 MLTools/libsvm-3.1

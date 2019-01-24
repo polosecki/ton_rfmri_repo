@@ -119,8 +119,14 @@ def make_binary_levels_from_behav_file(preHD_healthy_labels, subject_list,
                                  len(subject_list)).astype(int)
     assert np.remainder(preHD_healthy_labels.shape[0], len(subject_list)) == 0
 
+# Made obsolete in recent Pandas versions:
+# =============================================================================
+#     behav = pd.read_csv(in_csv, dtype={'subjid': str}, index_col='subjid').\
+#         loc[subject_list][used_behav_column].copy()
+# =============================================================================
+
     behav = pd.read_csv(in_csv, dtype={'subjid': str}, index_col='subjid').\
-        loc[subject_list][used_behav_column].copy()
+        reindex(subject_list)[used_behav_column]
 
     subject_labels = pd.Series(preHD_healthy_labels[::runs_per_subj],
                                subject_list)
